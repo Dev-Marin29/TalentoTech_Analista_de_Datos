@@ -11,7 +11,7 @@ print(f"Lista de Precios\nFresa ${fresa} Libra\nMango ${mango} Unidad\nManzana $
 
 Cant_Fresa= float(input("Digite la cantidad de fresa a comprar >>> "))
 Cant_Mango= int(input("Digite la cantidad de Mangos a comprar >>> "))
-Cant_Manzana= int(input("Digite la cantidad de Manzana a comprar >>> "))
+Cant_Manzana= int(input("Digite la cantidad de Manzanas a comprar >>> "))
 
 #Total por producto - Multiplicación
 
