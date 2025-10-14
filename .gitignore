@@ -1,17 +1,42 @@
-# Ignora todo por defecto
+# Ignora todo por defecto (todo lo del root)
 /*
 
-# ✅ Permitir todo el contenido dentro de las carpetas necesarias
-!/Scripts_Basicos_Python/**
-!/Notebooks_Jupyter/**
-!/Retos_intro_Python/**
-!/Retos_en_Jupy/**
-!/Uso_de_Librerias/**
+# ✅ Permitir archivos importantes en la raíz
+!.gitignore
+!README.md
+!LÉAME.md
+
+# ✅ Permitir estas carpetas y TODO su contenido
+!/Analisis_Df_Clases/
 !/Analisis_Df_Clases/**
+
+!/Df_Exportados/
+!/Df_Exportados/**
+
+!/Notebooks_Jupyter/
+!/Notebooks_Jupyter/**
+
+!/Proyecto_Final_Analisis_de_Datos/
 !/Proyecto_Final_Analisis_de_Datos/**
 
+!/Retos_en_Jupy/
+!/Retos_en_Jupy/**
 
-# ✅ Permitir archivos importantes en la raíz
-!README.md
-!.gitignore
+!/Retos_intro_Python/
+!/Retos_intro_Python/**
 
+!/Scripts_Basicos_Python/
+!/Scripts_Basicos_Python/**
+
+!/Uso_de_Librerias/
+!/Uso_de_Librerias/**
+
+# 🧹 Cosas que SIEMPRE conviene ignorar
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+.vscode/
+.venv/
+venv/
