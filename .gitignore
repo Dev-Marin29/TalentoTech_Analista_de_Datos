@@ -1,0 +1,17 @@
+# Ignora todo por defecto
+/*
+
+# ✅ Permitir todo el contenido dentro de las carpetas necesarias
+!/Scripts_Basicos_Python/**
+!/Notebooks_Jupyter/**
+!/Retos_intro_Python/**
+!/Retos_en_Jupy/**
+!/Uso_de_Librerias/** 
+!/Analisis_Df_Clases/**
+!/Proyecto_Final_Analisis_de_Datos/**
+
+
+# ✅ Permitir archivos importantes en la raíz
+!README.md
+!.gitignore
+
